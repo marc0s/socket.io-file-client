@@ -29,6 +29,9 @@
 		uploadTo && (fileInfo.uploadTo = uploadTo);
 
 		// read file
+		if (typeof FileReader === 'undefined') {
+			var FileReader = require('filereader');
+		}
 		var fileReader = new FileReader();
 
 		fileReader.onloadstart = function() {

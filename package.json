@@ -19,5 +19,8 @@
     "upload"
   ],
   "author": ".modernator",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "filereader": "^0.10.3"
+  }
 }
