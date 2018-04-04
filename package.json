@@ -1,6 +1,6 @@
 {
-  "name": "socket.io-file-client",
-  "version": "2.0.2",
+  "name": "@quobis/socket.io-file-client",
+  "version": "2.1.0",
   "description": "Client module for Socket.io-file",
   "main": "socket.io-file-client.js",
   "scripts": {
@@ -19,5 +19,11 @@
     "upload"
   ],
   "author": ".modernator",
-  "license": "MIT"
+  "collaborators": [
+    "Marcos de Vera Piquero <marcos.devera@quobis.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "filereader": "^0.10.3"
+  }
 }

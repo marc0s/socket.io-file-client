@@ -29,6 +29,9 @@
 		uploadTo && (fileInfo.uploadTo = uploadTo);
 
 		// read file
+		if (typeof FileReader === 'undefined') {
+			var FileReader = require('filereader');
+		}
 		var fileReader = new FileReader();
 
 		fileReader.onloadstart = function() {
@@ -167,6 +170,8 @@
 				);
 			});
 		};
+		/* When using file-api FileReader, we must bind to the event */
+		fileReader.addEventListener('loadend', fileReader.onloadend);
 		fileReader.readAsArrayBuffer(file);
 	}
 
