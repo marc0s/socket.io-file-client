@@ -22,8 +22,5 @@
   "collaborators": [
     "Marcos de Vera Piquero <marcos.devera@quobis.com>"
   ],
-  "license": "MIT",
-  "dependencies": {
-    "filereader": "^0.10.3"
-  }
+  "license": "MIT"
 }
