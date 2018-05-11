@@ -1,6 +1,6 @@
 {
   "name": "@quobis/socket.io-file-client",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Client module for Socket.io-file",
   "main": "socket.io-file-client.js",
   "scripts": {

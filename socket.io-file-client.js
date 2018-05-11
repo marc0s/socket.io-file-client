@@ -167,8 +167,6 @@
 				);
 			});
 		};
-		/* When using file-api FileReader, we must bind to the event */
-		fileReader.addEventListener('loadend', fileReader.onloadend);
 		fileReader.readAsArrayBuffer(file);
 	}
 
